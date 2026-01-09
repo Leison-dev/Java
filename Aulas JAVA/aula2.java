@@ -8,6 +8,7 @@ public class aula2 {
         int numero2 = 20;
         //Operadores Relacionais//
         // % < > <= >= != == //
+        // Teste de push automático
         System.out.println(numero2 / numero1);
         System.out.println(numero1+numero2);
         System.out.println(numero2-numero1);
