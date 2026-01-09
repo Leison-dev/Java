@@ -1,4 +1,4 @@
-package Aulas;
+
 
 public class aula2 {
     public static void main(String[]args){
@@ -12,6 +12,15 @@ public class aula2 {
         System.out.println(numero1+numero2);
         System.out.println(numero2-numero1);
         System.out.println(numero1*numero2);
+        //Operadores Logicos AND//
+        //&& (AND) || (or) ! //
+        int idade = 35;
+        float salario = 3500F;
+        boolean dentroDaLei = idade > 30 && salario >= 4612;
+        boolean dentroDaLeiMenorQueTrinta = idade < 30 && salario >= 3381;
+        System.out.println(dentroDaLei);
+        System.out.println(dentroDaLeiMenorQueTrinta);
+
     }
     
 }
